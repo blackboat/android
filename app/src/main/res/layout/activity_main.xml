@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_gradient"
+    android:paddingLeft="@dimen/layout_padding_lr"
+    android:paddingTop="@dimen/layout_padding_lr"
+    android:paddingRight="@dimen/layout_padding_tb"
+    android:paddingBottom="@dimen/layout_padding_tb"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_header"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        android:layout_marginBottom="@dimen/header_margin_botton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_signin"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/signin_text_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/form_margin_lr"
+        android:layout_marginRight="@dimen/form_margin_lr">
+    
+        <EditText
+            android:id="@+id/login_edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_email"
+            android:layout_marginBottom="@dimen/form_margin_botton"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/login_edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_password"
+            android:layout_marginBottom="@dimen/form_margin_botton"
+            android:singleLine="true"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/login_check_remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember me for 30days"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_signin"
+            android:onClick="onSignin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/button_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_signup"
+                android:textSize="13dp"
+                android:layout_weight="3"
+                android:onClick="onSignup"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

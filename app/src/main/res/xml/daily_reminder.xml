@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="cat_summary"
+        android:title="Create reminder">
+        <CheckBoxPreference
+            android:key="pref_sun"
+            android:title="@string/pref_sun" />
+
+        <CheckBoxPreference
+            android:key="pref_mon"
+            android:title="@string/pref_mon" />
+
+        <CheckBoxPreference
+            android:key="pref_tue"
+            android:title="@string/pref_tue" />
+
+        <CheckBoxPreference
+            android:key="pref_wed"
+            android:title="@string/pref_wed" />
+
+        <CheckBoxPreference
+            android:key="pref_thu"
+            android:title="@string/pref_thu" />
+
+        <CheckBoxPreference
+            android:key="pref_fri"
+            android:title="@string/pref_fri" />
+
+        <CheckBoxPreference
+            android:key="pref_sat"
+            android:title="@string/pref_sat" />
+    </PreferenceCategory>
+</PreferenceScreen>

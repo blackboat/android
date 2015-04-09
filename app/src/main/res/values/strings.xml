@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Vendormax Web Orders</string>
+
+    <string name="text_header">Vendormax Web Orders</string>
+    <string name="text_signin">Sign in</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_email">email</string>
+    <string name="edit_password">password</string>
+    <string name="check_remember">Remember me</string>
+    <string name="button_signin">Sign in</string>
+    <string name="button_signup">NEW USER!</string>
+    <string name="button_new">Are you new user?</string>
+    <string name="button_forgot">Forgot your password?</string>
+
+    <string name="title_activity_signup">Create User</string>
+    <string name="signup_text_signup">Create User</string>
+    <string name="signup_edit_email">Email</string>
+    <string name="signup_edit_password">Password</string>
+    <string name="signup_edit_retype">Retype password</string>
+    <string name="signup_spinner_prompt">Choose your user type...</string>
+    <string-array name="signup_spinner_type">
+        <item>Standard User</item>
+        <item>Distributor</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="signup_edit_userid">User ID</string>
+    <string name="signup_edit_accountid">Account ID</string>
+    <string name="signup_button_signup">Sign up</string>
+    <string name="signup_button_signin">Sign in</string>
+
+    <string name="title_activity_account">Vendormax Web Orders</string>
+    <string name="account_text_success">Signed in successfully</string>
+    <string name="account_text_account">Add your account info here to place a web order</string>
+    <string name="account_edit_userid">Input User ID</string>
+    <string name="account_edit_accountid">Input Account ID</string>
+    <string name="account_button_signout">Sign out</string>
+    <string name="account_button_order">Go to Order</string>
+    <string name="account_button_management">Account Management</string>
+
+    <string name="title_activity_order">ORDER</string>
+    <string name="title_activity_tab_product">ProductFragment</string>
+    <string name="tab_product_button_add_order">Add</string>
+    <string name="tab_product_edit_search">Search Products...</string>
+    <string name="title_activity_tab_order">OrderFragment</string>
+    <string name="tab_order_button_confirm_order">Send Order!</string>
+    <string name="tab_order_text_purchase">Purchase Order</string>
+    <string name="tab_order_text_send_msg">Send me a message</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="pref_mon">Monday</string>
+    <string name="pref_tue">Tuesday</string>
+    <string name="pref_wed">Wednesday</string>
+    <string name="pref_thu">Thursday</string>
+    <string name="pref_fri">Friday</string>
+    <string name="pref_sat">Saturday</string>
+    <string name="pref_sun">Sunday</string>
+
+</resources>
